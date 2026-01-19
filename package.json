@@ -3,8 +3,6 @@
     "start": "node index.js"
 },
   "name": "gurotopia-login",
-  "module": "index.js",
-  "type": "module",
   "private": true,
   "devDependencies": {
     "@types/bun": "latest"
