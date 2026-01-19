@@ -51,7 +51,8 @@ app.all('/player/login/dashboard', function (req, res) {
   }
 
   const html = fs.readFileSync(
-    path.join(__dirname, 'dashboard.html')
+    path.join(__dirname, 'dashboard.html'),
+    'utf8',
   );
   const modifiedHtml = html.replace(
     '{{ data._token }}',
