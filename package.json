@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon index.ts"
+},
   "name": "gurotopia-login",
   "module": "index.js",
   "type": "module",
